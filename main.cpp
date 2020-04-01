@@ -58,86 +58,94 @@ arm.rotateCounterClockwise();           // 4) demonstrates CamelCase
 
 
 //  1)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
+//  Noun: synth
+//  action 1: synth plays a note
+synth.playNote();
+//  action 2: synth changes waveforms
+synth.changeWaveform();
+//  action 3: synth changes gain
+synth.changeGain();
  
 //  2)
-//  Noun:
-//  action 1:
+//  Noun: microwave
+//  action 1: microwave heats up food
+microwave.heat();
+//  action 2: microwave runs a timer
+microwave.runTimer();
+//  action 3: microwave runs on defrost mode
+microwave.defrost();
 
-//  action 2:
-
-//  action 3:
- 
 //  3)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
+//  Noun: car
+//  action 1: car starts engine
+car.startEngine();
+//  action 2: car accellerates
+car.accellerate();
+//  action 3: car brakes
+car.brake();
  
 //  4)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
+//  Noun: deck of cards
+//  action 1: shuffles order
+cardDeck.shuffle();
+//  action 2: discards card;
+cardDeck.discard();
+//  action 3: deals card to player
+cardDeck.deal();
  
 //  5)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
+//  Noun: spaceship
+//  action 1: detects if ready for launch
+spaceship.detectReadyForLaunch();
+//  action 2: reports any internal errors
+spaceship.reportErrors();
+//  action 3: launches
+spaceship.launch(); // there we go I can work for SpaceX now
  
 //  6)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
+//  Noun: dog
+//  action 1: barks
+dog.bark();
+//  action 2: pulls on leash
+dog.pullOnLeash(); // would have to have a boolean checking whether it has a leash
+//  action 3: wags tail
+dog.wagTail();
  
 //  7)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
+//  Noun: rainbow
+//  action 1: appears in sky
+rainbow.becomeVisible();
+//  action 2: brings good luck
+rainbow.increaseLuck();
+//  action 3: spawns pot of gold
+rainbow.spawnGold();
  
 //  8)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
+//  Noun: bassoon
+//  action 1: plays staccato notes
+bassoon.playStaccato();
+//  action 2: plays baseline
+bassoon.playBaseline(); // assuming you would pass in some argument
+//  action 3: plays the opening phrase to Rite of Spring
+bassoon.playRiteOfSpringOpening();
  
 //  9)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
+//  Noun: lego brick
+//  action 1: connect on top of another brick
+legoBrick.connectAbove();
+//  action 2: connect underneath another brick
+legoBrick.connectBelow();
+//  action 3: disconnect from above
+legoBrick.disconnectAbove(); // could be kinda ambiguous
  
 //  10)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
- 
-
+//  Noun: bread dough
+//  action 1: rises
+dough.rise();
+//  action 2: proofs (proofing is second rising, it's different enough to warrant its own function tho)
+dough.proof();
+//  action 3: bakes
+dough.bake(); // arguably the oven does the baking, but also 'baking' is something it does internally
 
 #endif
 
